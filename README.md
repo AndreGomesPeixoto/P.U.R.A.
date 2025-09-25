@@ -34,7 +34,6 @@ O objetivo é auxiliar em regiões com escassez hídrica, aproveitando a água q
 
 ## 🚀 Próximos passos
 - [ ] Definir o protótipo elétrico
-- [ ] Escrever código inicial do Arduino
 - [ ] Testar captação em ambiente real
 - [ ] Criar documentação de montagem
 
