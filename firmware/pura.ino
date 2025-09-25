@@ -1,14 +1,31 @@
-#define RELAY_PIN 7 // pino conectado ao módulo relé
+#define RELAY_PIN 7      // Pino do relé ligado à bomba
+#define SOIL_PIN A0      // Pino analógico do sensor de umidade
 
+int umidadeSolo = 0;
+int limiteUmidade = 700; // Ajustar conforme o sensor 
+
+// Configuração inicial
 void setup() {
   pinMode(RELAY_PIN, OUTPUT);
-  digitalWrite(RELAY_PIN, LOW); // bomba desligada no início
+  digitalWrite(RELAY_PIN, LOW); // Bomba começa desligada
+  Serial.begin(9600);
 }
 
+// Loop principal
 void loop() {
-  // Exemplo básico: liga a bomba por 10s, desliga 20s
-  digitalWrite(RELAY_PIN, HIGH); 
-  delay(10000);
-  digitalWrite(RELAY_PIN, LOW);  
-  delay(20000);
+  umidadeSolo = analogRead(SOIL_PIN);
+  Serial.print("Umidade do solo: ");
+  Serial.println(umidadeSolo);
+
+  if (umidadeSolo < limiteUmidade) {
+    // Solo está bem úmido -> ligar bomba
+    digitalWrite(RELAY_PIN, HIGH);
+    Serial.println("Bomba LIGADA!");
+  } else {
+    // Solo seco ou úmido insuficiente -> desligar
+    digitalWrite(RELAY_PIN, LOW);
+    Serial.println("Bomba DESLIGADA!");
+  }
+
+  delay(2000); // Leitura a cada 2 segundos
 }
