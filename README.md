@@ -1,6 +1,6 @@
 # P.U.R.A. - Plataforma de Utilização e Recirculação da Água 💧
 
-A **PURA** (Plataforma de Utilização e Recirculação da Água) é um sistema de baixo custo para **captar, armazenar e reutilizar a água de solos úmidos**.  
+A **PURA** é um sistema de baixo custo para **captar, armazenar e reutilizar a água de solos úmidos**.  
 O objetivo é aproveitar a água que infiltra no solo após chuvas fortes, evitando desperdício e garantindo reserva para uso posterior.
 
 ---
