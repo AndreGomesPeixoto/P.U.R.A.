@@ -47,3 +47,10 @@ Aqui ficam anotadas as decisões, testes, dificuldades e avanços ao longo do pr
 - **Atividade realizada:** Criação do repositório no github.
 - **Detalhes:** Foi feito o repositório do github, assim como a criação do código do arduino e a adição do professor como colaborador.
 - **Próximos passos:** Terminar o banner e fazer a montagem do primeiro protótipo.
+
+---
+
+### 07/10/2025
+- **Atividade realizada:** Compra dos materiais
+- **Detalhes:** Foi feita a compra de uma caixa de passagem, um modulo relé com 4 entradas, uma bomba de vácuo de 12V e o extrator de solução do solo.
+- **Próximos passos:** Anexar os links dos produtos em \docs, fazer o banner do projeto, montar o primeiro protótipo
