@@ -72,10 +72,10 @@ void loop() {
   
   // --- Lógica de Decisão com HISTERESE ---
   if (umidadeSolo > limiteLigarBomba) {
-    digitalWrite(RELAY_PIN, LOW); // Liga a bomba
+    digitalWrite(RELAY_PIN, LOW); // Desliga a bomba
     statusBomba = "LIGADA";
   } else if (umidadeSolo < limiteDesligarBomba) {
-    digitalWrite(RELAY_PIN, HIGH); // Desliga a bomba
+    digitalWrite(RELAY_PIN, HIGH); // Liga a bomba
     statusBomba = "DESLIGADA";
   }
   // Se a umidade estiver entre os dois limites, o status da bomba não muda.
