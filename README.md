@@ -10,15 +10,13 @@ O objetivo é aproveitar a água que infiltra no solo após chuvas fortes, evita
 2. O **Arduino** recebe o sinal do sensor.
 3. Se as condições forem atendidas, o Arduino aciona a **bomba de vácuo** através de um **relé**.
 4. A água é conduzida do **extrator de soluções do solo** até um **reservatório**.
-5. (Opcional) Um módulo de **filtragem** pode tornar a água potável.
 
 ---
 
 ## 📂 Estrutura do repositório
-- `docs/` → Documentação, fluxogramas e instruções  
-- `hardware/` → Protoboard, lista de componentes e esquemas eletrônicos  
-- `firmware/` → Código para o Arduino controlar bomba + sensores  
-- `software/` → Futuro painel de monitoramento (opcional)  
+- `docs/` → Documentação  
+- `hardware/` → Lista de componentes 
+- `firmware/` → Código para o Arduino controlar bomba + sensores e interface 
 
 ---
 
@@ -31,4 +29,3 @@ O objetivo é aproveitar a água que infiltra no solo após chuvas fortes, evita
 - Extrator de soluções do solo
 - Fonte de energia (bateria ou adaptador ou direto na tomada)
 - Mangueiras e reservatório
-- (Opcional) Filtros de purificação de água
