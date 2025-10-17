@@ -51,6 +51,20 @@ Aqui ficam anotadas as decisões, testes, dificuldades e avanços ao longo do pr
 ---
 
 ### 07/10/2025
-- **Atividade realizada:** Compra dos materiais
+- **Atividade realizada:** Compra dos materiais.
 - **Detalhes:** Foi feita a compra de uma caixa de passagem, um modulo relé com 4 entradas, uma bomba de vácuo de 12V e o extrator de solução do solo.
-- **Próximos passos:** Anexar os links dos produtos em \docs, fazer o banner do projeto, montar o primeiro protótipo
+- **Próximos passos:** Anexar os links dos produtos em \docs, fazer o banner do projeto, montar o primeiro protótipo.
+
+---
+
+### 08/10/2025
+- **Atividade realizada:** Criação do banner.  
+- **Detalhes:** O banner foi feito e mandado para a impressão.  
+- **Próximos passos:** Montar o primeiro protótipo, anexar os materiais usados a lista.
+
+---
+
+### 14/10/2025
+- **Atividade realizada:** Testes com o protótipo.  
+- **Detalhes:** O primeiro protótipo foi feio e testado, o sistema de detecção de umidade do solo funcionou e incluimos um display de led para acompanhar os valores lidos.  
+- **Próximos passos:** Finalizar o protótipo e vedar o reservatório.
