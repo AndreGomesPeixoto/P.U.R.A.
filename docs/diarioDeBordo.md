@@ -68,3 +68,15 @@ Aqui ficam anotadas as decisões, testes, dificuldades e avanços ao longo do pr
 - **Atividade realizada:** Testes com o protótipo.  
 - **Detalhes:** O primeiro protótipo foi feio e testado, o sistema de detecção de umidade do solo funcionou e incluimos um display de led para acompanhar os valores lidos.  
 - **Próximos passos:** Finalizar o protótipo e vedar o reservatório.
+
+---
+
+### 16/10/2025
+- **Atividade realizada:** Finalização do rpotótipo.  
+- **Detalhes:** O primeiro protótipo do P.U.R.A. foi finalizado, o sistema elétrico para ligar a bomba não chegou a funcionar por conta da carga insuficiente da bateria. Mais testes serão realizados para corrigir este problema.  
+- **Próximos passos:** Apresentar a ideia do projeto, procurar outra fonte de energia.
+
+---
+
+# 💬 CONSIDERAÇÕES FINAIS:
+P.U.R.A. talvez tenha sido um projeto ambicioso demais, a realização do protótipo estava, muitas vezes, além das minhas capacidades. Junto ao Allan Clayton, meu professor auxiliar, juntamos nossos conhecimentos de programação para fazer o código do arduino, o que se provou ser a parte fácil, embora nenhum dos dois tenha plena experiência com eletrônicos, a lógica foi aplicada e chegamos em um resultado próximo do desejado. Com mais tempo investido no projeto (sem distrações), tenho certeza que seria possível utilizar essa ideia em uma escala maior.
