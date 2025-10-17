@@ -10,7 +10,7 @@
 // =======================================================
 // --- Pinos ---
 #define RELAY_PIN 7
-#define SOIL_PIN A3
+#define SOIL_PIN 3
 #define SENSOR_POWER_PIN 8
 
 // --- Parâmetros de Controle (AJUSTE AQUI APÓS CALIBRAR!) ---
